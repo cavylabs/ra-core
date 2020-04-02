@@ -1,0 +1,14 @@
+export declare const GET_LIST: string;
+export declare const GET_ONE: string;
+export declare const GET_MANY: string;
+export declare const GET_MANY_REFERENCE: string;
+export declare const CREATE: string;
+export declare const UPDATE: string;
+export declare const UPDATE_MANY: string;
+export declare const DELETE: string;
+export declare const DELETE_MANY: string;
+export declare const fetchActionsWithRecordResponse: string[];
+export declare const fetchActionsWithArrayOfIdentifiedRecordsResponse: string[];
+export declare const fetchActionsWithArrayOfRecordsResponse: string[];
+export declare const fetchActionsWithTotalResponse: string[];
+export declare const sanitizeFetchType: (fetchType: string) => string;
